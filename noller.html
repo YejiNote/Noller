@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Noller</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="shortcut icon" href="images/favicon/favicon.ico">
+</head>
+
+<body>
+
+	<div id="quick">
+		<div class="quick_icon">
+			<a href="sub2.html" class="q1"><img src="images/operator.png"></a>
+		</div>
+		<div class="quick_txt">
+			<a href="sub2.html" class="q2">실시간 맞춤 여행을<br>추천드릴게요</a>
+		</div>
+	</div>
+
+	<div id="wrap">
+
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header_logo">
+					<a href="noller.html"><img src="images/logo_blue.png" alt="로고"></a>
+				</div>
+				<div class="menu_toggle_btn"><img src="images/toggle.png" alt=""></div>
+				<nav class="nav">
+					<ul class="gnb">
+						<li><a href="sub1.html">여행전문지도</a></li>
+						<li><a href="#thema_section">맞춤 테마 여행</a></li>
+						<li><a href="#calendar_section">공유 캘린더</a></li>
+						<li><a href="sub2.html">여행 비서</a></li>
+						<li><a href="#savings_section">여행 적금</a></li>
+						<li><a href="#community_section">여행 수다</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<article class="main_visual">
+			<div class="main_visual_img">
+<!--			<img src="images/main_visual.png" alt="메인 이미지">-->
+			</div>
+			<div class="main_txt">
+				<img src="images/logo_yellow.png" alt="로고" class="main_visual_logo">
+				<img src="images/twinkle_w.png" alt="" class="twinkle_w">
+				<p>
+					취미가 <span>여행</span>이 되고 여행이 <span>취미</span>가 되는
+				</p>
+				<h2>제대로 노는 사람들 <br><span>놀러</span></h2>
+				<img src="images/twinkle_y.png" alt="" class="twinkle_y">
+			</div>
+		</article>
+
+		<section class="map_section" id="map_section">
+			<div class="container">
+				<div class="sec_tit">
+					<h1>실시간 날씨와 혼잡도를 알려주는<br><span>여행 전문 지도</span></h1>
+				</div>
+
+				<div class="map_wrap">
+					<div class="search_bar">
+						<label for="address" class="blind">지역검색</label>
+						<input type="text" id="address" placeholder="지역을 입력해주세요">
+						<img src="images/search.png" alt="검색아이콘">
+					</div>
+					<div class="iframe_box">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.9819327690398!2d127.07711431558917!3d37.602584229819826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbbad917f24d9%3A0x868b2fb6c999053f!2z7KSR7ZmU!5e0!3m2!1sko!2skr!4v1659675384014!5m2!1sko!2skr" width="100%" height="450" style="border:0; border-top-left-radius: 10px; border-top-right-radius: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<ul class="iframe_txt_list">
+							<li class="box_title">
+								<p>서울특별시 <br>중랑구</p>
+							</li>
+							<li class="box_description">
+								<p><span>오늘 날씨</span><br>30.0℃</p>
+							</li>
+							<li class="box_description">
+								<p><span>혼잡도</span><br>보통 <span class="circle"></span></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="thema_section" id="thema_section">
+			<div class="container">
+				<div class="sec_tit">
+					<h1>좋아하는 것만 하고 싶은 어른이들을 위해<br><span>취미 맞춤 테마 여행</span></h1>
+				</div>
+				<div class="thema_box_wrap">
+					<div class="thema_box">
+						<a href="#"><img src="images/section_img/thema01.jpg" alt="온천테마">
+							<div class="thema_box_txt">
+								<div class="box_description">따뜻한 물에 나른나른 자연 즐기기</div>
+								<div class="box_title">온천 여행</div>
+							</div>
+						</a>
+					</div>
+					<div class="thema_box">
+						<a href="#"><img src="images/section_img/thema02.jpg" alt="낚시테마">
+							<div class="thema_box_txt">
+								<div class="box_description">낚시광 모여라~!<br>민물도 바다도 다 준비됐어요</div>
+								<div class="box_title">낚시 여행</div>
+							</div>
+						</a>
+					</div>
+					<div class="thema_box">
+						<a href="#"><img src="images/section_img/thema03.jpg" alt="카페테마">
+							<div class="thema_box_txt">
+								<div class="box_description">커피 한 잔과 맛있는 디저트만 있다면<br>이곳이 천국이에요</div>
+								<div class="box_title">카페 여행</div>
+							</div>
+						</a>
+					</div>
+					<div class="thema_box">
+						<a href="#"><img src="images/section_img/thema04.jpg" alt="자전거테마">
+							<div class="thema_box_txt">
+								<div class="box_description">오롯이 자전거와 나만의 시간</div>
+								<div class="box_title">자전거 여행</div>
+							</div>
+						</a>
+					</div>
+					<div class="thema_box">
+						<a href="#"><img src="images/section_img/thema05.jpg" alt="사진테마">
+							<div class="thema_box_txt">
+								<div class="box_description">좋은 곳을 가야 좋은 사진이 나오니까</div>
+								<div class="box_title">사진 여행</div>
+							</div>
+						</a>
+					</div>
+					<div class="thema_box">
+						<a href="#"><img src="images/section_img/thema06.jpg" alt="문화재테마">
+							<div class="thema_box_txt">
+								<div class="box_description">문화재를 느끼고 역사를 알아가요<br>아이와 함께하는 가족 여행에 추천</div>
+								<div class="box_title">문화재 여행</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="calendar_section" id="calendar_section">
+			<div class="container">
+				<div class="sec_tit">
+					<h1>놀러의 <span>공유 캘린더</span></h1>
+				</div>
+
+				<div class="calendar_box">
+
+					<div class="calendar_box_show">
+						<div class="calendar_box_txt_show">
+							<div class="box_description_show">여행을 공유하고 싶은 사람들을 모아</div>
+							<div class="box_title_show">우리만의 캘린더로 초대해요</div>
+						</div>
+						<img src="images/section_img/noller_app01.png" alt="공유캘린더1" class="calendar_box_img_show">
+					</div>
+
+					<ul class="calendar_box_list">
+						<li>
+							<div class="calendar_box_txt">
+								<div class="box_description">여행을 공유하고 싶은 사람들을 모아</div>
+								<div class="box_title">우리만의 캘린더로 초대해요</div>
+							</div>
+							<img src="images/section_img/noller_app01.png" alt="공유캘린더1">
+						</li>
+						<li>
+							<div class="calendar_box_txt">
+								<div class="box_description">날짜별로 또는 시간대별로</div>
+								<div class="box_title">공유 캘린더에서 일정을 조율해요</div>
+							</div>
+							<img src="images/section_img/noller_app02.png" alt="공유캘린더2">
+						</li>
+						<li>
+							<div class="calendar_box_txt">
+								<div class="box_description">날짜가 정해지지 않은 일정은</div>
+								<div class="box_title">보관함에 저장해요</div>
+							</div>
+							<img src="images/section_img/noller_app03.png" alt="공유캘린더3">
+						</li>
+					</ul>
+					<div class="control">
+						<div class="btn left"><img src="images/arrow_l.png" alt="왼쪽버튼"></div>
+						<div class="btn right"><img src="images/arrow_r.png" alt="오른쪽버튼"></div>
+					</div>
+				</div>
+				<div class="box_desc">
+					<div class="box_description">깔끔한 <span>달력 인터페이스</span>와<br>
+						<span>우리만의 여행 일정을 공유</span>해보세요 .ᐟ
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="assi_section">
+			<div class="container">
+				<div class="sec_tit">
+					<h1>
+
+						<div class="assi_description">개인 성향에 따라 여행비용을 효율적으로 .ᐟ</div><span>여행 비서</span>
+					</h1>
+				</div>
+				<div class="assi_box_wrap">
+					<div class="assi_box">
+						<img src="images/section_img/assistant01.png" alt="숙소 최저가">
+						<div class="assi_box_tit">
+							<div class="box_description">여행 비서가 추천하는</div>
+							<div class="box_title">숙소 최저가 여행</div>
+						</div>
+						<ul class="assi_box_desc">
+							<li>게스트 하우스 <span>1박 33,000원</span></li>
+							<li>바다가 보이는 펜션 <span>1박 45,000원</span></li>
+							<li>수영장 독채 펜션 <span>1박 65,000원</span></li>
+						</ul>
+						<div class="assi_btn">
+							<a href="sub2.html">
+								<p>여행비서 확인하기</p>
+							</a>
+						</div>
+					</div>
+					<div class="assi_box">
+						<img src="images/section_img/assistant02.jpg" alt="교통비 최소화">
+						<div class="assi_box_tit">
+							<div class="box_description">놀러에서만 누릴 수 있는</div>
+							<div class="box_title">교통비 최소화 여행</div>
+						</div>
+						<ul class="assi_box_desc">
+							<li>연계 상품으로 KTX <span>50% ↓</span></li>
+							<li>전국 렌터카 최대 <span>50% ↓</span></li>
+							<li>시티투어 버스 예약 <span>1일 20,000원</span></li>
+						</ul>
+						<div class="assi_btn">
+							<a href="sub2.html">
+								<p>여행비서 확인하기</p>
+							</a>
+						</div>
+					</div>
+					<div class="assi_box">
+						<img src="images/section_img/assistant03.jpg" alt="안전보장여행">
+						<div class="assi_box_tit">
+							<div class="box_description">여행에선 즐기기만 하세요</div>
+							<div class="box_title">안전 보장 여행</div>
+						</div>
+						<ul class="assi_box_desc">
+							<li>여행자 보험 <span>1일 11,000원</span></li>
+							<li>한국관광공사 인증 숙소 <span>1박 55,000원</span></li>
+							<li>캐리어 보관 서비스 <span>1일 5,000원</span></li>
+						</ul>
+						<div class="assi_btn">
+							<a href="sub2.html">
+								<p>여행비서 확인하기</p>
+							</a>
+						</div>
+					</div>
+					<div class="assi_box">
+						<img src="images/section_img/assistant04.jpg" alt="현지인 식당 투어">
+						<div class="assi_box_tit">
+							<div class="box_description">현지 사람들 외식 장소만 골랐어요</div>
+							<div class="box_title">현지인 식당 투어</div>
+						</div>
+						<ul class="assi_box_desc">
+							<li>15첩 반상 한정식 <span>1인 9,000원</span></li>
+							<li>바로 잡아 바로 먹는 해산물 <span>22,000원</span></li>
+							<li>딸기 농장 체험 <span>2시간 7,000원</span></li>
+						</ul>
+						<div class="assi_btn">
+							<a href="sub2.html">
+								<p>여행비서 확인하기</p>
+							</a>
+						</div>
+					</div>
+					<div class="txt_link_btn"><a href="sub2.html">더 많은 여행비서 확인하기<span class="arrow-next"></span></a></div>
+				</div>
+			</div>
+		</section>
+
+		<hr class="divider">
+
+		<section class="savings_section" id="savings_section">
+			<div class="container">
+				<div class="sec_tit">
+					<h1><span>놀러 여행 적금</span></h1>
+					<h1 class="savings_sub_title">지갑 사정이 넉넉치 않아 여행이 망설여 진다면<br>
+						놀러의 여행 적금으로 떠나보세요 .ᐟ</h1>
+				</div>
+
+				<div class="phone_img">
+					<div class="box_title">놀러 여행 적금</div>
+					<img src="images/section_img/qrcode.png" alt="qr코드">
+					<div class="box_description">간편하게 QR로<br>바로 확인하세요 .ᐟ</div>
+					<button class="savings_btn"><a href="#">GO</a></button>
+				</div>
+			</div>
+			<div class="savings_content">
+
+				<ul class="savings_list">
+					<li>개인 또는<br>개인 사업자<br>《1인 1계좌》</li>
+					<li>1년 만기</li>
+					<li>월 1만원 이상<br>100만원 이하</li>
+					<li>최대<br>연 3.95%</li>
+				</ul>
+				<div class="box_description">
+					기본금리 <span>연 2.75%</span>(세전) + 우대금리, 특별금리 포함<br>최대 <span>연 1.20%</span>(세전)
+					<div class="savings_description">
+						<h1>최대금리 연 3.95%(세전)</h1>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="community_section" id="community_section">
+			<div class="container">
+				<div class="sec_tit">
+					<h1>좋은 곳은 널리널리 실제 후기만 보여드려요<br><span>여행 수다</span></h1>
+				</div>
+
+				<div class="community_wrap">
+					<div class="community_review">
+						<div class="community_tit">
+							<h1>REVIEW</h1>
+							<p>더 보기 +<span></span></p>
+						</div>
+						<ul class="review_list">
+							<li><a href="#">여기 온천이 진짜예요 알려지지 않아서 ...</a><span>22.08.05</span></li>
+							<li><a href="#">일생에 가장 재밌는 라이딩하고 왔습니 ...</a><span>22.08.05</span></li>
+							<li><a href="#">코스가 짧아 부담 없었고 디저트, 커피 맛 ...</a><span>22.08.04</span></li>
+							<li><a href="#">여기는 가보셔야해요 낚시 안 해도 풍경이 ...</a><span>22.08.04</span></li>
+						</ul>
+					</div>
+					<div class="community_story">
+						<div class="community_tit story_tit">
+							<h1>STORY</h1>
+							<p>더 보기 +<span></span></p>
+						</div>
+
+						<div class="slideshow-container">
+
+							<div class="mySlides fade">
+								<div class="numbertext">1 / 3</div>
+								<img src="images/section_img/story.jpg" style="width:100%" height="300px">
+								<div class="text"></div>
+							</div>
+
+							<div class="mySlides fade">
+								<div class="numbertext">2 / 3</div>
+								<img src="images/section_img/story02.jpg" style="width:100%" height="300px">
+								<div class="text"></div>
+							</div>
+
+							<div class="mySlides fade">
+								<div class="numbertext">3 / 3</div>
+								<img src="images/section_img/story03.jpg" style="width:100%" height="300px">
+								<div class="text"></div>
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						</div>
+						<br>
+
+						<div style="text-align:right">
+							<span class="dot" onclick="currentSlide(1)"></span>
+							<span class="dot" onclick="currentSlide(2)"></span>
+							<span class="dot" onclick="currentSlide(3)"></span>
+						</div>
+						
+<!--
+						<div class="story_img">
+						</div>
+-->
+						<div class="story_txt">
+							<div class="box_title">취미를 여행으로 만들어 주는 프로그램</div>
+<!--
+							<div class="story_circle">
+								<span class="story_circle_on"></span>
+								<span></span>
+								<span></span>
+							</div>
+-->
+							<div class="box_description">여행이 다채로워 지려면 어떻게 해야할까 고민하던 중<br>여행 목적을 취미로 만들자는 프로젝트를 결성했어요 .ᐟ</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer_wrap">
+				<div class="container">
+					<ul class="footer_sns_icon">
+						<li><a href="#"><img src="images/footer/footer_sns_icon_01.png" alt=""></a></li>
+						<li><a href="#"><img src="images/footer/footer_sns_icon_03.png" alt=""></a></li>
+						<li><a href="#"><img src="images/footer/footer_sns_icon_05.png" alt=""></a></li>
+						<li><a href="#"><img src="images/footer/footer_sns_icon_07.png" alt=""></a></li>
+						<li><a href="#"><img src="images/footer/footer_sns_icon_09.png" alt=""></a></li>
+						<li><a href="#"><img src="images/footer/footer_sns_icon_11.png" alt=""></a></li>
+						<li><a href="#"><img src="images/footer/footer_sns_icon_13.png" alt=""></a></li>
+					</ul>
+
+					<ul class="footer_bottom_list">
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">여행정보</a></li>
+						<li><a href="#">여행약관</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">개인정보처리방침</a></li>
+					</ul>
+
+					<div class="copyright">
+						<h4>놀러 NOLLER</h4>
+						<p>Copyright &copy; Noller Corp. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<script src="js/noller.js"></script>
+</body></html>
